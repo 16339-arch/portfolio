@@ -151,4 +151,31 @@ width:100%;
     box-shadow:0 8px 20px rgba(0,0,0,.15);
 }
 
+```css
+.edu-box{
+    background:#ffffff;
+    width:90%;
+    margin:20px auto;
+    padding:20px;
+    border-radius:15px;
+    border-top:6px solid #6a11cb;
+    box-shadow:0 8px 18px rgba(0,0,0,.15);
+    text-align:left;
+    transition:all .3s ease;
+}
+
+.edu-box h3{
+    color:#6a11cb;
+    margin-bottom:15px;
+}
+
+.edu-box p{
+    margin:6px 0;
+}
+
+.edu-box:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 30px rgba(0,0,0,.25);
+}
+
 
