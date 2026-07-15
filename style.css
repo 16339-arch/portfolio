@@ -124,4 +124,31 @@ width:100%;
 }
 
 }
-```
+
+.info-box{
+    background:#f8f9ff;
+    margin:15px auto;
+    padding:15px 20px;
+    border-left:6px solid #6a11cb;
+    border-radius:12px;
+    text-align:left;
+    width:90%;
+    transition:0.3s;
+}
+
+.info-box h3{
+    color:#6a11cb;
+    margin-bottom:8px;
+}
+
+.info-box p{
+    font-size:17px;
+    color:#333;
+}
+
+.info-box:hover{
+    transform:translateX(8px);
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+}
+
+
